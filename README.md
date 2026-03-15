@@ -59,10 +59,10 @@ rooms_per_low_income = avg_rooms_per_house / (low_income_population_pct + 1)
   Predictions are made on the test set.
 
   Results are compared with actual values:
-           prediction  actual
-503   28.18    23.9
-83    23.65    22.9
-9     19.51    18.9
-417    8.64    10.4
-213   23.15    28.1
-
+         | Index| Prediction | Actual
+         |--------|----------|-------|
+         |503|28.18|23.9|
+         |83|23.65|22.9|
+         9|19.51|18.9|
+         417|8.64|10.4|
+         213|23.15|28.1|
