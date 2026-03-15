@@ -58,11 +58,21 @@ rooms_per_low_income = avg_rooms_per_house / (low_income_population_pct + 1)
 ### 5.Evaluation 
   Predictions are made on the test set.
 
-  Results are compared with actual values:
-         | Index| Prediction | Actual
-         |--------|----------|-------|
-         |503|28.18|23.9|
-         |83|23.65|22.9|
-         9|19.51|18.9|
-         417|8.64|10.4|
-         213|23.15|28.1|
+### Sample Predictions vs Actual Values
+
+The table below shows some example predictions from the Random Forest model on the test set, compared with the actual median house values:
+
+| Index | Predicted | Actual |
+|-------|-----------|--------|
+| 503   | 28.18     | 23.9   |
+| 83    | 23.65     | 22.9   |
+| 9     | 19.51     | 18.9   |
+| 417   | 8.64      | 10.4   |
+| 213   | 23.15     | 28.1   |
+| 30    | 15.16     | 12.7   |
+| 494   | 20.34     | 24.5   |
+| 363   | 18.27     | 16.8   |
+| 33    | 15.63     | 13.1   |
+| 135   | 17.16     | 18.1   |
+
+> **Note:** Predictions are reasonably close to actual values, with most differences within $5,000. This demonstrates that the model captures the general trends of the data.
